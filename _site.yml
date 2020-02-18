@@ -1,0 +1,10 @@
+name: "my-website" #this has basically created a miniwebsite for you
+output_dir: "."
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+     

@@ -1,0 +1,110 @@
+---
+title: "KKM Reproducibility Course"
+output:
+  html_document:
+      toc: true
+      toc_depth: 2
+      toc_float: true
+---
+
+# Introduction {#introduction}
+This is an introduction to reproducibility in R
+
+##Starting with RStudio
+This is information about RStudio
+
+### Opening RStudio
+Shows different panes
+
+you can add **bold text** or __bold text with underscores__
+
+you can do *italics* also with _single underscore_
+
+Add in a superscript ^is^
+
+Or a subscript using ~tilde~
+
+If you add inline code use the backtick `to write code`
+
+Finally, use strikethrough text using ~~double tilde~~ 
+
+If you are writing a lot of text
+then you might want to break it up into two lines
+using just one 'enter' button.
+
+We have covered this in the [Introduction section](#introduction)
+
+You can also create [links to for example google](https://www.google.com). 
+
+You might have some link to a footnote [^1]. 
+
+[^1]: this is my first footnote. 
+
+
+## Lists
+
+Ordered list take numbers
+
+1. item a
+2. item b
+3. item c
+    a. sublist 1
+    b. sublist 2
+
+
+unordered lists: 
+
+- item a
+- item b
+
+* item C
+* item D
+
+# tasks: completed and uncompleted
+
+- [ ]
+- [x]
+
+# images link
+
+![a horse](https://cdn.britannica.com/74/204174-131-C97FEBB5/Irish-Cob-horses-autumn-pasture.jpg)
+
+## Tables
+
+you can create tables using | -
+
+|column header | another column |
+| -------------| ---------------|
+| first row    | with info      |
+| more rows    | with more info |
+
+# doing quotes or blocks
+
+> a greater than sign creates blocks 
+
+How does that look? New fonts!
+
+How would you highlight code?
+
+Use single `backticks` inline
+
+If you have a whole chunk of code, do this: 
+
+```
+print("hello")
+read.csc("data.txt")
+```
+Or you could use the follow to insert a R code specifically  ctrl+alt+I or go to 'code' and click 'insert chunk'
+
+```{r}
+75*2
+```
+```{r}
+calc_output<- 100*3
+calc_output
+```
+
+```{r}
+calc_output*5
+```
+
